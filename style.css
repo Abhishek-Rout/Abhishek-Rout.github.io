@@ -99,19 +99,19 @@ h1 span:nth-child(8)        /*K*/
 {
 	animation-delay:2s;
 }
-h1 span:nth-child(10)        /*R*/
+h1 span:nth-child(11)        /*R*/
 {
 	animation-delay:2.3s;
 }
-h1 span:nth-child(11)        /*O*/
+h1 span:nth-child(12)        /*O*/
 {
 	animation-delay:2.75s;
 }
-h1 span:nth-child(12)        /*U*/
+h1 span:nth-child(13)        /*U*/
 {
 	animation-delay:3.25s;
 }
-h1 span:nth-child(13)        /*T*/
+h1 span:nth-child(14)        /*T*/
 {
 	animation-delay:4s;
 }
