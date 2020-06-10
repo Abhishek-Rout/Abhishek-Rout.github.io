@@ -50,7 +50,7 @@ h1 span
 {
 opacity: 0;
 display: inline-block;
-animation: animate 1s linear forwards;
+animation: animate 1s linear forwards ease-in-out infinite;
 }
 @keyframes animate
 {
