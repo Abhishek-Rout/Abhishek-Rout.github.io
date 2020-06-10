@@ -2,11 +2,12 @@ body
 {
 margin: 0;
 padding: 0;
+
 }
 section
 {
 height: 100vh;
-background: #000;
+background: #fff;
 }
 section:before
 {
@@ -50,7 +51,7 @@ h1 span
 {
 opacity: 0;
 display: inline-block;
-animation: animate 1s linear forwards ease-in-out infinite;
+animation: animate 1s linear forwards;
 }
 @keyframes animate
 {
