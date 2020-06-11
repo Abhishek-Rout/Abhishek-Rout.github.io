@@ -22,7 +22,6 @@ height: 100%;
 background: linear-gradient(to right, #f00, #f00, #0f0, #0ff, #ff0,  #0f0, #f00);
 mix-blend-mode: color;
 pointer-events: none;
-
 }
 video
 {
@@ -45,7 +44,7 @@ transform: translateY(-50%);
 width: 100%;
 text-align: center;
 color: #fff;
-font-size: 12vw;
+font-size: 20vw;
 letter-spacing: 0.4vw;
 }
 h1 span
