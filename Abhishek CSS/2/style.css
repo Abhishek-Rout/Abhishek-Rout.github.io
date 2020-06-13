@@ -24,6 +24,7 @@ section h2
     color: #fff;
     z-index: 10000;
     mix-blend-mode: overlay;
+    font-size: 10vw;
 }
 section video
 {
