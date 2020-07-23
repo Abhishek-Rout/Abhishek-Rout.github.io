@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Cube</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+       <script src="three.js"></script>
+        <script>
+            var scene = new THREE.Scene();
+            scene.background=new THREE.TextureLoader().load('back.png');
+            var camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 0.1, 1000 );
+            
+            var renderer = new THREE.WebGLRenderer();
+            renderer.setSize( window.innerWidth, window.innerHeight );
+            document.body.appendChild( renderer.domElement );
+            
+            var geometry = new THREE.BoxGeometry();
+            var text1 = new THREE.TextureLoader().load('log.png');
+            var material =new THREE.MeshBasicMaterial({map: text1});
+            var cube = new THREE.Mesh( geometry, material );
+            scene.add( cube );
+
+            camera.position.z = 5;
+            
+            
+            function animate() {
+                requestAnimationFrame( animate );
+                cube.rotation.x += 0.01;
+                cube.rotation.y += 0.01;
+                renderer.render( scene, camera );
+            }
+            animate();
+        </script>
+    </body>
+</html>

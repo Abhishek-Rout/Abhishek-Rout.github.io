@@ -1,0 +1,11 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	background-color: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+body
+{
+    overflow: hidden;
+}
