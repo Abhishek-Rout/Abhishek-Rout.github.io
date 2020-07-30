@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="diamonds.css">
+        <title>Diamond Shape</title>
+    </head>
+    <body>
+        <h2>Friends Forever</h2>
+        <div class="diamond-grid">
+            <div class="item1"><img class="img1" src="img/akash.jpeg"></div>
+            <div class="item2"><img class="img2" src="img/gadge.jpeg"></div>
+            <div class="item3"><img src="img/pratik.jpeg"></div>
+            <div class="item4"><img src="img/hemant.jpg"></div>
+            <div class="item5"><img src="img/vaibhav.jpeg"></div>
+            <div class="item6"><img src="img/abhi.jpg"></div>
+            <div class="item7"><img src="img/sagar.jpg"></div>
+            <div class="item8"><img src="img/ravi.jpeg"></div>
+            <div class="item9"><img src="img/onkar.jpeg"></div>
+            <div class="item10"><img src="img/raj.jpeg"></div>
+            <div class="item11"><img src="img/rahul.jpg"></div>
+        </div>
+        <a href="Memory/index.html" class="cta">Next</a>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="jquery.diamonds.js"></script>
+        <script type="text/javascript">
+            $(".diamond-grid").diamonds({
+            size : 220,
+            gap : 5,
+            hideIncompleteRow :false,
+            autoRedraw :true,
+            itemSelector :".item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10,.item11" 
+        });
+
+        </script>
+          <section id="footer">
+    <div class="footer">
+        <h4 align="center">Credits: Abhishek Rout.</h4>
+    </div>
+  </section>
+    </body>
+</html>

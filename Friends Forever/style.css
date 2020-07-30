@@ -1,0 +1,309 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg,#3a6073,#000,#000,#000,#3a6073);
+}
+h2
+{
+    top: 0;
+    position: relative;
+    font-size: 3rem;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.cta {
+    
+	display: inline-block;
+	padding: 7px 15px;
+	color: crimson;
+	background-color: white;
+	border: 2px solid crimson;
+	font-size: 1.9rem;
+    border-radius: 20px;
+	letter-spacing: .1rem;
+	margin-top: 10px;
+    margin-left: 70%;
+	transition: .3s ease;
+	transition-property: background-color, color;
+}
+.cta:hover {
+	color: white;
+	background-color: crimson;
+}
+.diamond-grid
+{
+    width: 70%;
+    margin: 10px auto 0;
+}
+.item1
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item1:hover
+{
+    opacity: 1;
+}
+.item2
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item2:hover
+{
+    opacity: 1;
+}
+.item3
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item3:hover
+{
+    opacity: 1;
+}
+.item4
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item4:hover
+{
+    opacity: 1;
+}
+.item5
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item5:hover
+{
+    opacity: 1;
+}
+.item6
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item6:hover
+{
+    opacity: 1;
+}
+.item6
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item7:hover
+{
+    opacity: 1;
+}
+.item7
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item7:hover
+{
+    opacity: 1;
+}
+.item8
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item8:hover
+{
+    opacity: 1;
+}
+.item9
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item9:hover
+{
+    opacity: 1;
+}
+.item10
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item10:hover
+{
+    opacity: 1;
+}
+.item11
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item11:hover
+{
+    opacity: 1;
+}
+.item1 img 
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-40%) scale(1.1);
+    width: 100%;
+}
+.item2 img  
+{
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    transform: translateY(-40%) scale(1.2);
+    width: 100%;
+}
+.item3 img
+{
+    position: absolute;
+    top: 87%;
+    left: 15px;
+    transform: translateY(-40%) scale(1.5);
+    width: 100%;
+}
+.item4 img
+{
+    position: absolute;
+    top: 55%;
+    left: 0px;
+    transform: translateY(-40%) scale(1.5);
+    width: 100%;
+}
+.item5 img
+{
+    position: absolute;
+    top: 63%;
+    left: 5px;
+    transform: translateY(-40%) scale(1.1);
+    width: 100%;
+}
+.item6 img
+{
+    position: absolute;
+    top: 54%;
+    left: 9px;
+    transform: translateY(-40%) scale(1.2);
+    width: 100%;
+}
+.item7 img
+{
+    position: absolute;
+    top: 48%;
+    left: 1px;
+    transform: translateY(-40%) scale(1.6);
+    width: 100%;
+}
+.item8 img
+{
+    position: absolute;
+    top: 55%;
+    left: 10px;
+    transform: translateY(-40%) scale(1.1);
+    width: 100%;
+}
+.item9 img
+{
+    position: absolute;
+    top: 54%;
+    left: 0px;
+    transform: translateY(-40%) scale(1);
+    width: 100%;
+}
+.item10 img
+{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    transform: translateY(-40%) scale(1);
+    width: 100%;
+}
+.item11 img
+{
+    position: absolute;
+    top: 89%;
+    left: 14px;
+    transform: translateY(-40%) scale(2.5);
+    width: 100%;
+}
+@media (max-width: 767px)
+{
+    .diamond-grid
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+#footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+    
+	min-height: 10px;
+	flex-direction: column;
+	padding-top: 0px;
+}
+#footer h4 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	margin-top: 0;
+    margin-bottom: 11px;
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+}
