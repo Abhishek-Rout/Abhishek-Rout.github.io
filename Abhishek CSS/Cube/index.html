@@ -17,7 +17,7 @@
             document.body.appendChild( renderer.domElement );
             
             var geometry = new THREE.BoxGeometry();
-            var text1 = new THREE.TextureLoader().load('log.png');
+            var text1 = new THREE.TextureLoader().load('log.PNG');
             var material =new THREE.MeshBasicMaterial({map: text1});
             var cube = new THREE.Mesh( geometry, material );
             scene.add( cube );
