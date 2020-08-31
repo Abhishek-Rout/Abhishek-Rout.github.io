@@ -4,10 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Memories</title>
+        <title>Image Gallery</title>
     </head>
     <body>
-        <h1>Memories...<br><a href="https://abhishek-rout.github.io/Abhishek%20CSS/27/index.html" class="cta">Next</a></h1>
         <div class="box">
             <span style="--i:1"><img src="img7.jpg"></span>
             <span style="--i:2"><img src="img4.jpeg"></span>
@@ -18,5 +17,12 @@
             <span style="--i:7"><img src="img5.jpeg"></span>
             <span style="--i:8"><img src="img0.jpeg"></span>
         </div>
+        <script type="text/javascript">
+            let box = document.querySelector('.box');
+            window.onmousemove = function(e){
+                let x = e.clientX/3;
+                box.style.transform = "perspective(1000px) rotateY("+x+"deg)";
+            }
+        </script>
     </body>
 </html>
