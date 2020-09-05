@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Image Slider</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section>
+            <img src="https://source.unsplash.com/1650x950/?nature,water" id="slider">
+            <ul class="navigation">
+                <li onclick="imgSlider('https://source.unsplash.com/1650x950/?nature,water')"><img src="https://source.unsplash.com/1650x950/?nature,water"></li>
+                <li onclick="imgSlider('https://source.unsplash.com/1650x950/?nature,mountain')"><img src="https://source.unsplash.com/1650x950/?nature,mountain"></li>
+                <li onclick="imgSlider('https://source.unsplash.com/1650x950/?nature,snow')"><img src="https://source.unsplash.com/1650x950/?nature,snow"></li>
+                <li onclick="imgSlider('https://source.unsplash.com/1650x950/?nature,sea')"><img src="https://source.unsplash.com/1650x950/?nature,sea"></li>
+                <li onclick="imgSlider('https://source.unsplash.com/1650x950/?nature')"><img src="https://source.unsplash.com/1650x950/?nature"></li>
+                <li onclick="imgSlider('https://source.unsplash.com/1650x950/?nature,animals')"><img src="https://source.unsplash.com/1650x950/?nature,animals"></li>
+            </ul>
+            <h2>Simple Image Slider</h2>
+        </section>
+        <script type="text/javascript">
+            function imgSlider(anything)
+            {
+            document.getElementById("slider").src = anything;
+            }
+        </script>
+    </body>
+</html>

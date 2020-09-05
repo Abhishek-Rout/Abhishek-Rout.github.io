@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Image Distortion</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="imgBox">
+                <img src="https://source.unsplash.com/400x400/?woman,umbrella">
+                <img src="https://source.unsplash.com/400x400/?fashion,man">   
+            </div>
+            <div class="imgBox">
+                <img src="https://source.unsplash.com/400x400/?fashion,women">
+                <img src="https://source.unsplash.com/400x400/?people">   
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r118/three.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+        <script src="hover.js"></script>
+        <script type="text/javascript">
+            Array.from(document.querySelectorAll('.imgBox')).forEach((e) => {
+                const imgs = Array.from(e.querySelectorAll('img'));
+                new hoverEffect({
+        parent: e,
+        intensity: 0.3,
+        image1: imgs[0].getAttribute('src'),
+        image2: imgs[1].getAttribute('src'),
+        displacementImage: '4.png'      //distoring image
+    });
+            })
+        </script>
+    </body>
+</html>

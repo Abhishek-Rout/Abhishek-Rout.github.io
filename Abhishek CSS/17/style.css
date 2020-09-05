@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000;
+}
+.heading h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 120px;
+    color: #fff;
+}
+.heading:first-child
+{
+    background: url(https://source.unsplash.com/1600x900/?nature,forest);
+    background-size: cover;
+}
+.heading:last-child
+{
+    background: url(https://source.unsplash.com/1600x900/?nature,ocean);
+    background-size: cover;
+}
+section
+{
+    height: auto;
+    display: flex;
+}
+section .imgBx
+{
+    position: sticky;
+    top: 0;
+    min-width: 50%;
+    background: #000;
+    height: 100vh;
+}
+section .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section .storyBx
+{
+    padding: 60px;
+}
+section .storyBx h2
+{
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 60px;
+}
+section .storyBx p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: justify;
+}

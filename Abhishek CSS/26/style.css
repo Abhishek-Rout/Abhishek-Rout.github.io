@@ -1,0 +1,40 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #333;
+    align-items: center;
+}
+.diamond-grid
+{
+    width: 90%;
+    margin: 25px auto 10px;
+}
+.item
+{
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: .5s;
+}
+.item:hover
+{
+    opacity: 1;
+}
+.item img
+{
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    transform: translateY(-40%) scale(1.5);
+    width: 100%;
+}
+@media (max-width: 767px)
+{
+    .diamond-grid
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
