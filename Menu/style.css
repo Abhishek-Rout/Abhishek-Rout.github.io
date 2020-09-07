@@ -14,10 +14,9 @@
 .container
 {
     position: relative;
-    padding: 30px;
-    padding-top: 17px;
+    padding: 50px;
+    padding-top: 30px;
     padding-bottom: 1px;
-    
     width: 100%;
     color: #111;
 }
