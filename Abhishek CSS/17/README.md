@@ -5,7 +5,7 @@
   Link: https://abhishek-rout.github.io/Abhishek%20CSS/17/
 
 ## Description
-  Pages have images on side of Story.
+  Pages have images on the side of Story.
 
 ## Requirements
 
@@ -13,9 +13,7 @@ HTML: File for structure of webpage.
 
 CSS:
 - File for decoration of webpage.
-- Swiper File for giving swiping effects.
 
-JS: Swiper File for frontend backed code.
 
 ## Preview
 
