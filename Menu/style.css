@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
+    background: url(img/bg.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container
 {
@@ -12,11 +17,7 @@
     padding: 30px;
     padding-top: 17px;
     padding-bottom: 1px;
-    background: url(img/bg.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: right;
+    
     width: 100%;
     color: #111;
 }
