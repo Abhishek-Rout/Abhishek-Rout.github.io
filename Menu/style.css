@@ -14,11 +14,11 @@
 .container
 {
     position: relative;
-    padding: 50px;
-    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 67px;
     padding-bottom: 1px;
-    width: 100%;
-    color: #111;
+    color: #111; 
 }
 .container section
 {
@@ -85,16 +85,16 @@
     color: #fff;
     font-size: 1.2em;
 }
-
 .container section .content span
 {
     position: relative;
     color: #888;
     font-size: 1.3em;
     font-weight: bold;
-    background: transparent;
     cursor: pointer;
     margin: 5px;
+    background: transparent;
+    margin-right: 0;
 }
 .container section .content span .img
 {
@@ -144,10 +144,7 @@
     cursor: pointer;
     margin: 5px;
 }
-.container section .content span a:hover
-{
-    background: #fff;
-}
+
 #footer {
     justify-content: center;
     align-items: center;
@@ -174,7 +171,7 @@
 #footer .social-item img {
 	filter: grayscale(1);
 	transition: .3s ease filter;
-	 background: transparent;
+    background: transparent;
 }
 #footer .social-item:hover img {
 	filter: grayscale(0);
