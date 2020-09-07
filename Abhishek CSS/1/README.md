@@ -1,4 +1,4 @@
- # Text Animation
+ # Text Animation Effects
 
 Link: https://abhishek-rout.github.io/Abhishek%20CSS/1/
 
