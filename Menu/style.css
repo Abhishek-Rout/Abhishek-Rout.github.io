@@ -92,6 +92,7 @@
     color: #888;
     font-size: 1.3em;
     font-weight: bold;
+    background: transparent;
     cursor: pointer;
     margin: 5px;
 }
