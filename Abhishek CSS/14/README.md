@@ -11,8 +11,7 @@ Slides changes to next slide on touch-swipe.
 ## Requirements
 HTML: File for structure.
 
-CSS: - File for decoration.
-
+CSS: - File for decoration.<br />
      - Swiper File for giving swiping effects.
      
 JS: Swiper File for frontend backed code.
