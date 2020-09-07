@@ -5,7 +5,7 @@
   Link: https://abhishek-rout.github.io/Abhishek%20CSS/17/
 
 ## Description
-Heading of story is sticky, so moves on scroll down.
+  Pages have images on side of Story.
 
 ## Requirements
 
