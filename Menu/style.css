@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container
+{
+    position: relative;
+    padding: 20vh;
+    padding-top: 17vh;
+    padding-bottom: 1px;
+    background: url(img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    color: #111;
+}
+.container section
+{
+    position: relative;
+    margin-bottom: 50px;
+}
+.container section .sticky
+{
+    position: sticky;
+    top: 0;
+    min-height: 60px;
+    font-size: 2em;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #ff1f6b;
+    padding: 0 20px;
+    font-weight: 600;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+}
+.container section:nth-child(2) .sticky
+{
+    background: #03a9f4;
+}
+.container section:nth-child(3) .sticky
+{
+    background: #2dea3c;
+}
+.container section:nth-child(4) .sticky
+{
+    background: #cb2ee6;
+}
+.container section:nth-child(6) .sticky
+{
+    background: #03a9f4;
+}
+.container section:nth-child(7) .sticky
+{
+    background: #2dea3c;
+}
+.container section:nth-child(8) .sticky
+{
+    background: #cb2ee6;
+}
+.container section:nth-child(9) .sticky
+{
+    background: #03a9f4;
+}
+.container section:nth-child(11) .sticky
+{
+    background: #2dea3c;
+}
+.container section:nth-child(12) .sticky
+{
+    background: #cb2ee6;
+}
+.container section .content
+{
+    position: relative;
+    padding: 20px 0;
+}
+.container section .content p
+{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.container section .content span
+{
+    position: relative;
+    color: #888;
+    font-size: 1.3em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+.container section .content span .img
+{
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%,0);
+    visibility: hidden;
+    z-index: 1;
+    width: 300px;
+}
+.container section .content span:hover .img
+{
+    visibility: visible;
+}
+
+.container section .content a
+{
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    line-height: 20px;
+    right: 0;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 0.9em;
+    font-weight: 600;
+    background: #222;
+    padding: 4px 15px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.container section .content a:hover
+{
+    background: #fff;
+    color: #222;
+}
+.container section .content span a
+{
+    text-decoration: none;
+    color: #888;
+    background: transparent;
+    position: relative;
+    font-size: 1em;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    margin: 5px;
+}
+.container section .content span a:hover
+{
+    background: #fff;
+}
+#footer {
+    justify-content: center;
+    align-items: center;
+}
+#footer .footer {
+	min-height: 20vh;
+	flex-direction: column;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#footer .social-icon {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-bottom: 0;
+    position: relative;
+    
+}
+#footer .social-item {
+	width: 20px;
+	margin: 0 20px;
+    transform: scale(0.7);
+}
+#footer .social-item img {
+	filter: grayscale(1);
+	transition: .3s ease filter;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+    text-align: center;
+}
