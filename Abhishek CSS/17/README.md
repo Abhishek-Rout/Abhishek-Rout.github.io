@@ -18,3 +18,5 @@ CSS:
 JS: Swiper File for frontend backed code.
 
 ## Preview
+
+![17](https://user-images.githubusercontent.com/64718836/92392433-e7a5f900-f13b-11ea-8961-97304d56e2e3.PNG)
