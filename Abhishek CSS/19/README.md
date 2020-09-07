@@ -13,6 +13,8 @@ HTML: File for structure of webpage.
 CSS:
 - File for decoration of webpage.
 
+Image Credits: Unsplash Source
+
 ## Preview
 
 ![19](https://user-images.githubusercontent.com/64718836/92392463-f12f6100-f13b-11ea-9d6c-0cc00e12d1a6.PNG)
