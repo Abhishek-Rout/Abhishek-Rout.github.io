@@ -9,10 +9,10 @@ Link: https://abhishek-rout.github.io/Abhishek%20CSS/14/
 Slides changes to next slide on touch-swipe. 
 
 ## Requirements
-  HTML: File for structure.
+  HTML: File for structure of webpage.
 
   CSS: 
-  - File for decoration.
+  - File for decoration of webpage.
   - Swiper File for giving swiping effects.
      
   JS: Swiper File for frontend backed code.
