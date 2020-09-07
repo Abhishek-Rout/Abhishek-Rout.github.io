@@ -16,8 +16,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    background-size: right;
     width: 100%;
     color: #111;
 }
