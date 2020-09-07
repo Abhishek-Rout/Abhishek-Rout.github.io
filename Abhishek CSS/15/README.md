@@ -10,7 +10,8 @@ Slides changes to next slide by auto-swipe.
 ## Requirements
 HTML: File for structure.
 
-CSS: - File for decoration.
+CSS: 
+- File for decoration.
 - Swiper File for giving swiping effects.
 
 JS: Swiper File for frontend backed code for automatic slide change.
