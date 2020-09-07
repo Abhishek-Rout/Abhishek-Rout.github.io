@@ -9,8 +9,8 @@ Slides changes to next slide gallery image on touch-swipe .
 HTML: File for structure of webpage.
 
 ## CSS:
-    - File for decoration of webpage.
-    - Swiper File for giving swiping effects to the gallery.
+- File for decoration of webpage.
+- Swiper File for giving swiping effects to the gallery.
     
 JS: Swiper File for frontend backed code.
 
