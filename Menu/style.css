@@ -173,6 +173,7 @@
 #footer .social-item img {
 	filter: grayscale(1);
 	transition: .3s ease filter;
+	 background: transparent;
 }
 #footer .social-item:hover img {
 	filter: grayscale(0);
