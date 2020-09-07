@@ -9,8 +9,8 @@
 .container
 {
     position: relative;
-    padding: 20vh;
-    padding-top: 17vh;
+    padding: 20px;
+    padding-top: 17px;
     padding-bottom: 1px;
     background: url(img/bg.jpg);
     background-attachment: fixed;
