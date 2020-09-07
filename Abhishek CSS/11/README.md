@@ -12,7 +12,9 @@
   
   JS: Hover file is used for getting the distortion.
   
-  Images: Images in the file are used to get different image distortion.
+  In-Images: Images in the file are used to get different image distortion.
+  
+  Image Credits: Unssplash Source
 
 ## Preview
 
