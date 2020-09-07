@@ -8,7 +8,7 @@ Slides changes to next slide gallery image on touch-swipe .
 ## Requirements
 HTML: File for structure of webpage.
 
-## CSS:
+CSS:
 - File for decoration of webpage.
 - Swiper File for giving swiping effects to the gallery.
     
