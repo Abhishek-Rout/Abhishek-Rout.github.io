@@ -4,9 +4,9 @@
   
 ## Requirements
 
-HTML: File for structure.
-CSS: File for decoration.
-JS: Vanila Tilt file is used to give the file a real object effect.
+  HTML: File for structure.
+  CSS: File for decoration.
+  JS: Vanila Tilt file is used to give the file a real object effect.
 
 ## Preview
 
