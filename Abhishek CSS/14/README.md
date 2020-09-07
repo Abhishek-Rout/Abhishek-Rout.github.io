@@ -9,12 +9,13 @@ Link: https://abhishek-rout.github.io/Abhishek%20CSS/14/
 Slides changes to next slide on touch-swipe. 
 
 ## Requirements
-HTML: File for structure.
+  HTML: File for structure.
 
-CSS: - File for decoration.<br />
-               - Swiper File for giving swiping effects.
+  CSS: 
+  - File for decoration.
+  - Swiper File for giving swiping effects.
      
-JS: Swiper File for frontend backed code.
+  JS: Swiper File for frontend backed code.
 
 ## Preview
 
