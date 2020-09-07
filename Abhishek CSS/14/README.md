@@ -12,6 +12,7 @@ Slides changes to next slide on touch-swipe.
 HTML: File for structure.
 
 CSS: - File for decoration.
+
      - Swiper File for giving swiping effects.
      
 JS: Swiper File for frontend backed code.
