@@ -1,6 +1,6 @@
  # Text Animation
  
- ## Smoke Visible Text 1
+ ## Smoke Visible Text 2
  
  Link: https://abhishek-rout.github.io/Abhishek%20CSS/3/
  
