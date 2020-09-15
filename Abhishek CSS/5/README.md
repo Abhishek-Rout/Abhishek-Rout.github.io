@@ -1,4 +1,4 @@
- # Text Animation
+ # Image/Video Gallery Animation
  
  Link: https://abhishek-rout.github.io/Abhishek%20CSS/5/
  
