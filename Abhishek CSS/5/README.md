@@ -1,5 +1,7 @@
  # Image/Video Gallery Animation
  
+ ## Horizontally Rotating Image Gallery
+ 
  Link: https://abhishek-rout.github.io/Abhishek%20CSS/5/
  
  ## Requirements
