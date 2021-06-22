@@ -256,6 +256,8 @@ span
     overflow: hidden;
     box-shadow: 0 15px 25px rgba(0,0,0,0.2);
     transition: 0.5s;
+    justify-content: center;
+    align-items: center;
 }
 #education .contain:hover .card
 {
