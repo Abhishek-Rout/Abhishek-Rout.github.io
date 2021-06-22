@@ -1,4 +1,5 @@
  # Text Animation Effects
+ <hr>
  
  ## Colorful Smoking Text
 
