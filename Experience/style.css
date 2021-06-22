@@ -204,12 +204,12 @@ span
     top: 60px;
     position: absolute;
     font-size: 4rem;
-	font-weight: 400;
-	color: black;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: .2rem;
-	text-align: center;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
 }
 #experience .card .content h2
 {
@@ -251,13 +251,11 @@ span
 }
 #experience .contain:hover .card
 {
-    filter: blur(20px);
     transform: scale(0.9);
     opacity: 0.5;
 }
 #experience .contain .card:hover
 {
-    filter: blur(0px);
     transform: scale(1.1);
     opacity: 1;
 }
