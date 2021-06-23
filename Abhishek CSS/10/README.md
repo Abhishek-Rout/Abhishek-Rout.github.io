@@ -12,7 +12,7 @@
   
   JS: Vanila Tilt file is used to give the file a real object effect.
   
-  Image Credits: Unsplash source
+  Image Credits: Unsplash source images
 
 ## Preview
 
