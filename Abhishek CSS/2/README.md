@@ -1,6 +1,6 @@
  # Text Animation
  
- ## Smoke Visible Text 1
+ ## Smoke Visible Text B/W
  
  Link: https://abhishek-rout.github.io/Abhishek%20CSS/2/
  
