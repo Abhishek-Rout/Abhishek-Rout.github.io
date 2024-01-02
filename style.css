@@ -327,6 +327,9 @@ p {
 	margin-bottom: 20px;
 }
 #about .col-right .cta {
+	display: flex;
+    	align-items: center;
+    	width: fit-content;
 	color: black;
 	margin-bottom: 45px;
 	padding: 5px 20px;
@@ -336,7 +339,6 @@ p {
 	position: relative;
 	width: 35px;
 	padding-right: 5px;
-	transform: translateY(5px);
 }
 #about .col-left .about-img {
 	height: 100%;
