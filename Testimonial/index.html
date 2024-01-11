@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Testimonials</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -55,6 +54,16 @@
       font-size: 24px;
       color: #17a2b8;
       padding-bottom: 16px;
+    }
+
+    .icon {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .icon i {
+      margin: 10px;
+      cursor: pointer;
     }
 
     .box .name {
@@ -108,10 +117,6 @@
       margin: 25px 0;
       padding: 5px 0;
       border-bottom: 2px solid #d9d9d9;
-    }
-
-    .login-content div:last-child() {
-      padding-bottom: 80px;
     }
 
     .login-content .input-div.one {
@@ -177,8 +182,7 @@
       color: #17a2b8;
     }
 
-    .input-div>div>input,
-    .input-div>div>textarea {
+    .input-div>div>input {
       position: absolute;
       left: 0;
       top: 0;
@@ -259,25 +263,94 @@
         </div>
         <div class="div">
           <h5>Email</h5>
-          <input type="email" name="email" class="email input">
+          <input type="email" name="email" class="username input">
         </div>
       </div>
-      <div class="input-div one" style="padding-bottom: 80px;">
+      <div class="input-div one">
         <div class="i">
           <i class="fas fa-comment"></i>
         </div>
         <div class="div">
           <h5>Your comments</h5>
-          <textarea name="comment" class="comment input" style="height: auto;" rows="4" cols="40"></textarea>
+          <input type="text" name="comment" class="username input">
         </div>
       </div>
-      <input type="submit" class="btn" value="Submit" onclick="SendEmail()">
+      <input type="submit" class="btn" value="Submit">
     </form>
   </div>
-  <script src="https://smtpjs.com/v3/smtp.js">
-  </script>
+
   <script>
-    const _0xb0d4d4 = _0x5af1; (function (_0x47a508, _0x2ccf2e) { const _0xe97d3e = _0x5af1, _0x538995 = _0x47a508(); while (!![]) { try { const _0x2282b5 = parseInt(_0xe97d3e(0x166)) / 0x1 * (-parseInt(_0xe97d3e(0x183)) / 0x2) + parseInt(_0xe97d3e(0x16f)) / 0x3 * (parseInt(_0xe97d3e(0x17f)) / 0x4) + parseInt(_0xe97d3e(0x178)) / 0x5 + parseInt(_0xe97d3e(0x171)) / 0x6 + parseInt(_0xe97d3e(0x181)) / 0x7 + parseInt(_0xe97d3e(0x16b)) / 0x8 + -parseInt(_0xe97d3e(0x16c)) / 0x9; if (_0x2282b5 === _0x2ccf2e) break; else _0x538995['push'](_0x538995['shift']()); } catch (_0x1c6628) { _0x538995['push'](_0x538995['shift']()); } } }(_0x39c0, 0x1eb67)); let form = document['querySelector'](_0xb0d4d4(0x172)), wrapper = document[_0xb0d4d4(0x177)](_0xb0d4d4(0x17e)); form['addEventListener'](_0xb0d4d4(0x191), _0x580840 => { const _0x57eb2e = _0xb0d4d4; _0x580840[_0x57eb2e(0x17c)](), document[_0x57eb2e(0x177)](_0x57eb2e(0x189))['value'] = _0x57eb2e(0x188); let _0x3688f0 = new FormData(form); fetch('https://script.google.com/macros/s/AKfycbwl4P2h3YwwcYcHdLnrXJ9_xFLDigZgFkmY1INZcpR2NCH_gMgfeoLBJqmBXkmEmYxOhQ/exec', { 'method': _0x57eb2e(0x173), 'body': _0x3688f0 })[_0x57eb2e(0x167)](_0x1910bc => _0x1910bc[_0x57eb2e(0x179)]())[_0x57eb2e(0x167)](_0x4421ac => { const _0x4ff86f = _0x57eb2e; document[_0x4ff86f(0x177)](_0x4ff86f(0x189))['value'] = 'Submit', location['reload'](); }); }); let SHEET_ID = _0xb0d4d4(0x18b), SHEET_TITLE = _0xb0d4d4(0x187), FULL_URL = _0xb0d4d4(0x170) + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE; function _0x5af1(_0x5a31d8, _0x4dec3a) { const _0x39c016 = _0x39c0(); return _0x5af1 = function (_0x5af16b, _0x4aa6ff) { _0x5af16b = _0x5af16b - 0x161; let _0xe1a952 = _0x39c016[_0x5af16b]; return _0xe1a952; }, _0x5af1(_0x5a31d8, _0x4dec3a); } fetch(FULL_URL)[_0xb0d4d4(0x167)](_0x15aee5 => _0x15aee5[_0xb0d4d4(0x179)]())['then'](_0x241a67 => { const _0xf0d83c = _0xb0d4d4; let _0x375f80 = JSON[_0xf0d83c(0x18f)](_0x241a67[_0xf0d83c(0x16e)](0x2f)[_0xf0d83c(0x16d)](0x0, -0x2)), _0x63c0fb = _0x375f80[_0xf0d83c(0x185)][_0xf0d83c(0x176)]['length']; for (let _0x1ac434 = 0x1; _0x1ac434 < _0x63c0fb; _0x1ac434++) { let _0x296bfe = document['createElement']('div'); _0x296bfe[_0xf0d83c(0x190)] = _0xf0d83c(0x164), _0x296bfe[_0xf0d83c(0x175)] = _0xf0d83c(0x163) + _0x375f80[_0xf0d83c(0x185)][_0xf0d83c(0x176)][_0x1ac434]['c'][0x2]['v'] + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22name\x22>' + _0x375f80[_0xf0d83c(0x185)]['rows'][_0x1ac434]['c'][0x0]['v'] + '</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20', wrapper[_0xf0d83c(0x162)](_0x296bfe); } }); const inputs = document['querySelectorAll'](_0xb0d4d4(0x174)); function addcl() { const _0x85607f = _0xb0d4d4; let _0x2c6c57 = this['parentNode']['parentNode']; _0x2c6c57[_0x85607f(0x18d)][_0x85607f(0x18c)]('focus'); } function _0x39c0() { const _0x1b00b4 = ['focus', 'preventDefault', 'value', '.wrapper', '4892lVndKd', 'Hi\x20', '1539440YcRKFS', 'addEventListener', '6sOmnwI', 'b4d501bd-e055-49d7-8a0f-44c7acff0d3e', 'table', '.comment', 'Testimonials', 'Submitting..', '.btn', '.username', '1PONNJyAm68XQoH6pc4uRlCFBk3jWvUsgmMkh7mI05ZI', 'add', 'classList', 'parentNode', 'parse', 'className', 'submit', 'blur', 'appendChild', '<i\x20class=\x22fas\x20fa-quote-left\x20\x20quote\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>', 'box', 'send', '24620MmkZAD', 'then', 'forEach', 'Testimonial\x20comment', '.email', '141680OZNAuA', '2636127Rkhdgw', 'slice', 'substr', '237NqywdS', 'https://docs.google.com/spreadsheets/d/', '747294Kdhhzd', 'form', 'POST', '.input', 'innerHTML', 'rows', 'querySelector', '168830IKnTOQ', 'text', ',\x20<br\x20/>\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20Your\x20comment:\x20']; _0x39c0 = function () { return _0x1b00b4; }; return _0x39c0(); } function remcl() { const _0x143a1e = _0xb0d4d4; let _0x583731 = this['parentNode'][_0x143a1e(0x18e)]; this['value'] == '' && _0x583731['classList']['remove']('focus'); } inputs[_0xb0d4d4(0x168)](_0x3ad09f => { const _0x3e5676 = _0xb0d4d4; _0x3ad09f[_0x3e5676(0x182)](_0x3e5676(0x17b), addcl), _0x3ad09f['addEventListener'](_0x3e5676(0x161), remcl); }); function SendEmail() { const _0x38f455 = _0xb0d4d4; let _0x419128 = document[_0x38f455(0x177)](_0x38f455(0x18a))[_0x38f455(0x17d)], _0x4356c3 = document[_0x38f455(0x177)](_0x38f455(0x16a))[_0x38f455(0x17d)], _0x5055be = document[_0x38f455(0x177)](_0x38f455(0x186))['value']; Email[_0x38f455(0x165)]({ 'SecureToken': _0x38f455(0x184), 'To': _0x4356c3, 'From': 'abhishek.r.9690@gmail.com', 'Subject': _0x38f455(0x169), 'Body': _0x38f455(0x180) + _0x419128 + _0x38f455(0x17a) + _0x5055be }); }
+    let form = document.querySelector("form");
+    let wrapper = document.querySelector(".wrapper");
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      document.querySelector(".btn").value = "Submitting..";
+      let data = new FormData(form);
+      fetch('https://script.google.com/macros/s/AKfycbxhSBc4hNK4WvqRY7ZhHOVyM45rDjgbP1OBru7ugyZJCXvMzbNvucHaRCimIY7_lYj3Lw/exec',
+        {
+          method: "POST",
+          body: data
+        })
+        .then(res => res.text())
+        .then(data => {
+          document.querySelector(".btn").value = "Submit";
+          location.reload();
+        });
+    })
+
+
+
+    fetch('https://script.google.com/macros/s/AKfycbxhSBc4hNK4WvqRY7ZhHOVyM45rDjgbP1OBru7ugyZJCXvMzbNvucHaRCimIY7_lYj3Lw/exec')
+      .then(res => res.json())
+      .then(data => {
+        console.log(data.data.length);
+        let info = data.data;
+
+        for (let i = 1; i < info.length; i++) {
+          let div = document.createElement('div');
+          div.className = 'box';
+          div.setAttribute("data-index", i)
+          div.innerHTML =
+            `
+            <i class="fas fa-quote-left quote"></i>
+            <p>${info[i].comment}</p>
+            <p class="name">${info[i].name}</p>
+            <div class="icon">
+              <i class="fas fa-pen quote" onclick="editBox(${i})"></i>
+              <i class="fas fa-trash quote" onclick="deleteBox(${i})"></i>
+            </div>
+            `;
+          wrapper.appendChild(div);
+        }
+      })
+
+    const inputs = document.querySelectorAll(".input");
+
+    function addcl() {
+      let parent = this.parentNode.parentNode;
+      parent.classList.add("focus");
+    }
+
+    function remcl() {
+      let parent = this.parentNode.parentNode;
+      if (this.value == "") {
+        parent.classList.remove("focus");
+      }
+    }
+
+    inputs.forEach(input => {
+      input.addEventListener("focus", addcl);
+      input.addEventListener("blur", remcl);
+    });
+
+    function editBox(i) {
+      console.log("edit box", i)
+    }
+
+    function deleteBox(i) {
+      console.log("delete box", i)
+    }
+
   </script>
 </body>
 
