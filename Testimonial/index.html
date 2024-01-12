@@ -282,11 +282,12 @@
   <script>
     let form = document.querySelector("form");
     let wrapper = document.querySelector(".wrapper");
+    let api = "https://script.google.com/macros/s/AKfycbzT-xpbuVPRjpKZ7moVQ4AImMC9L-5gVzx_rwCFFC5Ew99fpo6GsNsrz3lucjET6S_Gyg/exec";
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       document.querySelector(".btn").value = "Submitting..";
       let data = new FormData(form);
-      fetch('https://script.google.com/macros/s/AKfycbxhSBc4hNK4WvqRY7ZhHOVyM45rDjgbP1OBru7ugyZJCXvMzbNvucHaRCimIY7_lYj3Lw/exec',
+      fetch(api,
         {
           method: "POST",
           body: data
@@ -299,30 +300,32 @@
     })
 
 
-
-    fetch('https://script.google.com/macros/s/AKfycbxhSBc4hNK4WvqRY7ZhHOVyM45rDjgbP1OBru7ugyZJCXvMzbNvucHaRCimIY7_lYj3Lw/exec')
-      .then(res => res.json())
-      .then(data => {
-        console.log(data.data.length);
-        let info = data.data;
-
-        for (let i = 1; i < info.length; i++) {
-          let div = document.createElement('div');
-          div.className = 'box';
-          div.setAttribute("data-index", i)
-          div.innerHTML =
-            `
+    function readData() {
+      fetch(api)
+        .then(res => res.json())
+        .then(data => {
+          let info = data;
+          console.log(data, data.length)
+          for (let i = 0; i < info.length; i++) {
+            let div = document.createElement('div');
+            div.className = 'box';
+            div.setAttribute("data-index", i + 1)
+            div.innerHTML =
+              `
             <i class="fas fa-quote-left quote"></i>
-            <p>${info[i].comment}</p>
-            <p class="name">${info[i].name}</p>
+            <p>${info[i][2]}</p>
+            <p class="name">${info[i][0]}</p>
             <div class="icon">
-              <i class="fas fa-pen quote" onclick="editBox(${i})"></i>
-              <i class="fas fa-trash quote" onclick="deleteBox(${i})"></i>
+              <i class="fas fa-pen quote" onclick="editBox(${i + 1})"></i>
+              <i class="fas fa-trash quote" onclick="deleteBox(${i + 1})"></i>
             </div>
             `;
-          wrapper.appendChild(div);
-        }
-      })
+            wrapper.appendChild(div);
+          }
+        })
+    }
+
+    readData();
 
     const inputs = document.querySelectorAll(".input");
 
@@ -343,12 +346,17 @@
       input.addEventListener("blur", remcl);
     });
 
-    function editBox(i) {
-      console.log("edit box", i)
+    function editBox(id) {
+      console.log("edit box", id)
     }
 
-    function deleteBox(i) {
-      console.log("delete box", i)
+    function deleteBox(id) {
+      fetch(api + `?del=true&id=${id + 1}`)
+        .then(res => res.text())
+        .then(data => {
+          alert(data);
+          location.reload();
+        })
     }
 
   </script>
