@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: #17a2b8;
+}
+
+::selection {
+  background: rgba(23, 162, 184, 0.3);
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lock-screen {
+  overflow: hidden;
+}
+
+.wrapper .box {
+  background: #fff;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  margin: 8px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper .box i.quote {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: #17a2b8;
+  padding-bottom: 16px;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon i {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.box .name {
+  font-weight: 600;
+  font-size: 17px;
+  padding-top: 16px;
+  text-align: center;
+  color: #17a2b8;
+}
+
+@media (max-width: 1045px) {
+  .wrapper .box {
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+
+  form {
+    width: 290px;
+  }
+}
+
+@media (max-width: 702px) {
+  .wrapper .box {
+    width: 100%;
+  }
+
+  .login-content {
+    justify-content: center;
+  }
+}
+
+.login-content {
+  text-align: center;
+  position: relative;
+  padding: 12px;
+  margin: 20px;
+  height: 380px;
+  border-radius: 6px;
+  background: #fff;
+  width: 380px;
+}
+
+.login-content h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  width: 360px;
+}
+
+.login-content .input-div {
+  position: relative;
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 5px 0;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.login-content .input-div.one {
+  margin-top: 0;
+}
+
+.i {
+  color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i i {
+  transition: .3s;
+}
+
+.input-div>div {
+  position: relative;
+  height: 45px;
+}
+
+.input-div>div>h5 {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.input-div:before,
+.input-div:after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #38d39f;
+  transition: .4s;
+}
+
+.input-div:before {
+  right: 50%;
+}
+
+.input-div:after {
+  left: 50%;
+}
+
+.input-div.focus:before,
+.input-div.focus:after {
+  width: 50%;
+}
+
+.input-div.focus>div>h5 {
+  top: -5px;
+  font-size: 15px;
+}
+
+.input-div.focus>.i>i {
+  color: #17a2b8;
+}
+
+.input-div>div>input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.5rem 0.7rem;
+  font-size: 1.2rem;
+  color: #555;
+  font-family: 'poppins', sans-serif;
+}
+
+.input-div.pass {
+  margin-bottom: 4px;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  transition: .3s;
+}
+
+.sub-container span {
+  display: flex;
+
+  & input {
+    margin-right: 4px;
+  }
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #17a2b8, #38d39f, #17a2b8);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn:hover {
+  background-position: right;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #17a2b8;
+  z-index: 1;
+}
+
+.popup-close-button {
+  display: none;
+  vertical-align: middle;
+  height: 31px;
+  width: 31px;
+  position: absolute;
+  right: 10px;
+  top: -16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+  z-index: 3;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.popup-close-button::before,
+.popup-close-button::after {
+  content: "";
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #17a2b8;
+  top: 9px;
+  left: 14.5px;
+  position: absolute;
+  border-radius: 30px;
+}
+
+.popup-close-button::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.popup-close-button::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.active {
+  position: absolute;
+}
