@@ -220,7 +220,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(https://source.unsplash.com/1600x900/?scenery);
+	background-image: url(Assets/bg_img.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
