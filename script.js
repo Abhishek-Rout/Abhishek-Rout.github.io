@@ -78,6 +78,6 @@ window.onload = function() {
 
 var loader = document.getElementById("preloader");
 var intro = document.getElementById("intro");
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
    loader.style.display = "none";
 });
