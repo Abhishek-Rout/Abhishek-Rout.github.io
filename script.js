@@ -80,3 +80,9 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+var loader = document.getElementById("preloader");
+var intro = document.getElementById("intro");
+window.addEventListener("DOMContentLoaded", function () {
+   loader.style.display = "none";
+});
