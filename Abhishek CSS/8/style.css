@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg,#091921,#2980b9,#091921);
+}
+h1
+{
+    top: 30px;
+    position: absolute;
+    font-size: 3rem;
+	font-weight: 400;
+	color: #091921;
+	margin-bottom: 10px;
+	letter-spacing: .1rem;
+	text-align: center;
+}
+.calculator
+{
+    position: relative;
+    display: grid;
+    border: 10px solid #091921;
+}
+.calculator .value
+{
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: 1px solid rgba(0,0,0,.2);
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.calculator span
+{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    border: 2px solid rgba(0,0,0,.2);
+}
+.calculator span:active
+{
+    background: #74ff3b;
+    color: #111;
+}
+.calculator span.clear
+{
+    grid-column: span 2;
+    width: 120px;
+    background: #ff3077;
+}
+.calculator span.plus
+{
+    background: #03b1ff;
+}
+.calculator span.equal
+{
+    background: #03b1ff;
+}
+.calculator span.minus
+{
+    background: #03b1ff;
+}
+.calculator span.mul
+{
+    background: #03b1ff;
+}
+.calculator span.div
+{
+    background: #03b1ff;
+}
+.calculator span.mod
+{
+    background: #03b1ff;
+}
